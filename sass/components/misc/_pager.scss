@@ -22,13 +22,17 @@
   text-decoration: none;
 }
 .pager__item a:hover {
-  background-color: $orange;
-  border-color: $orange;
+  background-color: $link_colour
+;
+  border-color: $link_colour
+;
   color: #fff;
 }
 .pager__item--current {
-  border-color: $orange;
-  color: $orange;
+  border-color: $link_colour
+;
+  color: $link_colour
+;
 }
 .pager__item--ellipsis {
   border: none;

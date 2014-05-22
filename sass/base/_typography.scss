@@ -17,9 +17,12 @@ html {
  * $LINKS
  */
 a {
-  @include link-colors($orange, #000, $pale-orange, $orange, #000);
+  @include link-colors($link_colour, #000, $link-v_colour, $link_colour, #000);
 }
-
+//rt added
+a:hover {
+      color: $a_hover_colour;
+}
 /**
  * $HEADINGS
  */
@@ -40,7 +43,7 @@ h6, .zeta {
     text-decoration: none;
   }
   a:hover {
-    color: $dark-blue;
+    color: $h_hover_colour;
   }
 }
 
@@ -51,7 +54,7 @@ h1, .alpha {
 h2, .beta {
   @include font-size(34px);
   font-weight: 700;
-  color: $mid-blue;
+  color: $h_colour;
 }
 h3, .gamma {
   @include font-size(21px);
@@ -65,7 +68,7 @@ h5, .epsilon{
 }
 h6, .zeta {
   @include font-size(16px);
-  color: $mid-blue;
+  color: $h_colour;
 }
 
 /**
@@ -92,7 +95,7 @@ blockquote {
   @include rhythm-borders(1px);
   @include apply-side-rhythm-border(left, 10px);
   font-style: italic;
-  color: $dark-blue;
+  color: $h_hover_colour;
 
   p {
     margin: 0;
