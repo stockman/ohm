@@ -1,9 +1,7 @@
 // Import external libraries.
-//@import "compass";
-	// commented out by rt becuase this won't compile.
+@import "compass";
 @import "breakpoint";
-//@import "singularitygs";
-	// commented out by rt becuase this won't compile.
+@import "singularitygs";
 @import "toolkit-no-css";
 
 // Import variables, abstractions, base styles and components using globbing.
